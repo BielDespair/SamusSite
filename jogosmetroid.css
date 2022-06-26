@@ -1,0 +1,123 @@
+body {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+}
+
+
+
+header {
+    background-image: url(./assets/samusbanner.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: 330px;
+    border: 2px solid rgba(220, 20, 60, 0.445);
+    padding: 20px 0;
+
+}
+@keyframes animationbanner {
+    from {background-position-y: 900px};
+    to {background-position-y: 330px};
+  }
+header:hover {
+    animation-name: animationbanner;
+    animation-timing-function: ease-out;
+    animation-duration: 5s;
+
+    
+}
+
+
+
+
+
+.caixa {
+    position: relative;
+    width: 1760;
+    margin: 0 auto;
+}
+
+
+
+
+
+#logo {
+    width: 20%;
+    height: 20%;
+}
+
+
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.missoes{
+    width: 1760px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+    
+}
+
+
+.missoes li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 15 30;
+    color: rgb(233, 0, 0);
+    box-sizing:border-box;
+    border: 2px solid rgba(220, 20, 60, 0.445);
+    border-radius: 50px;
+    background-image: url(./assets/background.png);
+}
+
+.missoes li:hover {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.missoes li:active{
+
+
+}
+
+.missoes h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.img-relatorio {
+    width: 100%;
+    height: 30%;
+    border-radius: 20px;
+}
+
+.descricao-missao {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0 
+    
+}
